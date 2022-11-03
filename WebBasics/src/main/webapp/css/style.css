@@ -1,0 +1,66 @@
+.auth-fragment {
+    background-color: moccasin;
+    /*height: 1.5em;*/
+    padding: .7ch .5em;
+    text-align: center;
+    width: 100%;
+}
+input[type=radio] {
+    visibility: hidden;
+}
+input[type=radio]:checked + label {
+    border: 1px solid salmon;
+    font-weight: bold;
+}
+label {
+    cursor: pointer;
+    font-size: larger;
+    font-variant: small-caps;
+}
+.auth-sign-up {
+    background-color: burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 7px;
+    padding: 3px 4px;
+    text-decoration: none;
+    transition: background-color .2s;
+}
+.auth-sign-up:hover {
+    background-color: khaki;
+}
+.auth-fragment-avatar {
+    border-radius: 45%;
+    max-height: 30px;
+    max-width: 40px;
+    vertical-align: middle;
+}
+.auth-profile-a {
+    text-decoration: none;
+}
+.reg-error {
+    color: crimson;
+}
+.reg-ok {
+    color: forestgreen;
+}
+.profile-avatar {
+    float: left;
+    max-height: 200px;
+    max-width: 100px;
+}
+.profile-fieldset {
+    border: 1px solid black;
+    display: inline-block;
+}
+.profile-fieldset legend {
+    background-color: moccasin;
+    padding: .5em 1em;
+}
+.profile-name b {
+    padding: .1em .3em;
+}
+.check-mail img {
+    max-width: 200px;
+}
